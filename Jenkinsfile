@@ -10,11 +10,12 @@ pipeline {
             }
         }
     }
-    
+   
     post {
-        success {
-            // Cleanup steps, if any
-            emailext body: 'Email sent out from jenkins', subject: 'Test Email', to: 'janvi4794.be22@chitkara.edu.in'
+        success{
+            emailext body: 'sent successfully ', subject: 'test email', to: 'janvi4794.be22@chitkara.edu.in'
         }
     }
 }
+
+       
