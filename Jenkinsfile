@@ -10,7 +10,6 @@ pipeline {
             }
         }
     }
-    
     post {
         success {
             // Cleanup steps, if any
