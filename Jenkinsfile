@@ -13,7 +13,7 @@ pipeline {
     post {
         success {
             // Cleanup steps, if any
-            emailext body: 'Email sent out from Jenkins', subject: 'Test Email', to: 'janvi4794.be22@chitkara.edu.in'
+            emailext body: 'sent successfully ', subject: 'test email', to: 'tjanvi2206@gmail.com'
         }
     }
 }
