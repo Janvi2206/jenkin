@@ -48,7 +48,7 @@ pipeline {
     post {
         success {
             // Cleanup steps, if any
-            emailext body: 'sent successfully ', subject: 'test email', to: 'tjanvi2206@gmail.com'
+            emailext body: 'sent successfully ', subject: 'test email', to: 'janvi4794.be22@chitkara.edu.in'
         }
     }
 }
